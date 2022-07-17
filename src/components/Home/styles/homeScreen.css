@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.diego-cano-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+
+}
+
+.diego-cano-name {
+  position: absolute;
+  top: 70%;
+  
+  left: 25%;
+  margin-right: -75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Megrim', cursive;
+  font-size: 350%;
+}
