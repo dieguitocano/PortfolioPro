@@ -11,10 +11,9 @@ const DropDown = () => {
                 <a href="#">Parent Link</a>
 
                 <ul>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
-                    <li><a href="#">Child Link</a></li>
+                    <li><a href="#">Workshop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Media</a></li>
                 </ul>
             </li>
         </ul>
