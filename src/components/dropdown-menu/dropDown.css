@@ -1,9 +1,8 @@
 .menu {
 
-  margin: 0 auto;
+  margin: 0 65%;
   position: relative;
   width: 200px;
-  z-index: 3;
   list-style: none;
   
 }

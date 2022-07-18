@@ -15,8 +15,8 @@ const HomeScreen = () => {
     return (
         <>
             <div className='diego-box'>
-             <DropDown />
                 <Particle />
+                <DropDown />
                 <div className='diego-cano-container'>
                     <div className='both-lyrics'>
                         <h1 className='diego-cano-name'>Diego Cano</h1>
