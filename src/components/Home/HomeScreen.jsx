@@ -1,4 +1,6 @@
 import React from 'react'
+import DropDown from '../dropdown-menu/DropDown'
+import Particle from '../Particle'
 import './styles/homeScreen.css'
 
 
@@ -12,12 +14,18 @@ const HomeScreen = () => {
 
     return (
         <>
-            <div >
+            <div className='diego-box'>
+             <DropDown />
+                <Particle />
                 <div className='diego-cano-container'>
-                    <h1 className='diego-cano-name'>Diego Cano</h1>
-                    <p>frontendDesign </p>
+                    <div className='both-lyrics'>
+                        <h1 className='diego-cano-name'>Diego Cano</h1>
+                        <h2 className='frontend'>frontendDesign </h2>
+                    </div>
                 </div>
             </div>
+
+
         </>
 
     )

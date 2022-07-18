@@ -1,28 +1,63 @@
-*{
+* {
   margin: 0;
   padding: 0;
 
 }
 
+.diego-box {
+ 
+
+ 
+
+
+
+
+}
+
+
+
 .diego-cano-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  /* width: 60%;
+  height: 400px;
+  margin: 8% 5%;*/
   width: 100%;
+  height: 100%;
+  position: absolute;
   display: flex;
+  align-items: end;
+ 
+}
+
+.both-lyrics{
+  /*margin-top: 32%;
+  margin-left: 10%;*/
+  width: 300px;
+  height: 200px;
+  margin-left: 10%;
+  text-align: end;
 
 }
 
 .diego-cano-name {
-  position: absolute;
-  top: 70%;
-  
+
+  /*top: 70%;
+
   left: 25%;
   margin-right: -75%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: white;*/
   font-family: 'Megrim', cursive;
   font-size: 350%;
+ 
+}
+
+.frontend {
+  color: white;
+  
+  
+  /*top: 77%;
+
+  left: 29%;
+  margin-right: -75%;
+  transform: translate(-50%, -50%);*/
 }
