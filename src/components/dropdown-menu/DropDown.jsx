@@ -3,19 +3,21 @@ import './dropDown.css'
 
 const DropDown = () => {
 
+    const goHome = () => navigate('/')
+
 
     return (
 
         <ul class="menu">
             <li>
-                <a href="#"><span class="material-symbols-outlined">
+                <a onClick={goHome} href="/#/"><span class="material-symbols-outlined">
                     visibility
                 </span></a>
 
                 <ul className='dropdown-options'>
-                    <li><a href="/projects">Workshop</a></li>
-                    <li><a href="/aboutme">About</a></li>
-                    <li><a href="#">Media</a></li>
+                    <li><a href="/#/workshop">Workshop</a></li>
+                    <li><a href="/#/about">About</a></li>
+                    <li><a href="/#/media">Media</a></li>
                 </ul>
             </li>
         </ul>

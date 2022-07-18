@@ -2,7 +2,11 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>AboutMe</div>
+    <div>
+      <div>
+        <h2>AboutMe</h2>
+      </div>
+    </div>
 
     
   )

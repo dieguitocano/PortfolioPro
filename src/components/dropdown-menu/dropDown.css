@@ -1,9 +1,11 @@
 .menu {
 
   margin: 0 65%;
-  position: relative;
+  position: absolute;
   width: 200px;
   list-style: none;
+  cursor: pointer;
+
   
 }
 
@@ -33,7 +35,7 @@
 }
 
 .menu li:hover ul {
-  height: 115px;
+  height: 100px;
   opacity: 1;
   transform: translateY(0);
 }
@@ -41,7 +43,7 @@
 .menu ul a {
   
   display: block;
-  padding: 5px 20px;
+  padding: 7px 20px;
   text-decoration: none;
   color: #fff;
 }
