@@ -3,16 +3,18 @@ import './dropDown.css'
 
 const DropDown = () => {
 
-   
+
     return (
 
         <ul class="menu">
             <li>
-                <a href="#">Parent Link</a>
+                <a href="#"><span class="material-symbols-outlined">
+                    visibility
+                </span></a>
 
-                <ul>
-                    <li><a href="#">Workshop</a></li>
-                    <li><a href="#">About</a></li>
+                <ul className='dropdown-options'>
+                    <li><a href="/projects">Workshop</a></li>
+                    <li><a href="/aboutme">About</a></li>
                     <li><a href="#">Media</a></li>
                 </ul>
             </li>
