@@ -22,19 +22,38 @@ const MediaAndTech = () => {
                     <div className='icons-card-container'>
                         <i class="fa-brands fa-html5"></i>
                     </div>
-
-
                 </div>
+
                 <div className='tech-card'>
                     <div className='icons-card-container'>
                         <i class="fa-brands fa-css3-alt"></i>
                     </div>
-
-
                 </div>
+
                 <div className='tech-card'>
                     <div className='icons-card-container'>
                         <i class="fa-brands fa-js-square"></i>
+                    </div>
+                </div>
+
+                <div className='tech-card'>
+                    <div className='icons-card-container'>
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                </div>
+
+                <div className='tech-card'>
+                    <div className='icons-card-container'>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+
+                <div className='media-card'>
+                    <div className='icons-media-container'>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
                     </div>
                 </div>
 

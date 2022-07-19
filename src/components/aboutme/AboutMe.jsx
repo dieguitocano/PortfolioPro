@@ -14,7 +14,7 @@ const AboutMe = () => {
           <p>Full Stack Development student, just finished Front end module
             as an outstanding student.
             Individual with a high sense of aesthethics.
-            Software Development is the right tool for me to transform through shapes and effects, transfrom through beauty, is my way of bringing peace to the Universe
+            Software Development is the right tool for me to transform through shapes and effects, transfrom through beauty, it is my way of sharing peace and harmony
           </p>
         </div>
       </div>

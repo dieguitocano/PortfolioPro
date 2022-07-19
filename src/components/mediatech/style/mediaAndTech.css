@@ -13,7 +13,7 @@
 
 }
 
-.cards-media-container{
+.cards-media-container {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -24,7 +24,7 @@
 }
 
 
-.tech-card{
+.tech-card {
     width: 160px;
     text-align: center;
     box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.2);
@@ -37,15 +37,16 @@
     backdrop-filter: blur(4.3px);
     -webkit-backdrop-filter: blur(4.7px);
     border: 1px solid rgba(255, 255, 255, 0.24);
-   
+
 }
 
 
 .tech-card:hover {
     transform: scale(0.98);
-  
-   
-  }
+
+
+}
+
 .icons-card-container {
     display: flex;
     font-size: 100px;
@@ -53,19 +54,27 @@
     text-align: center;
 }
 
+.media-card {
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.2);
+    height: 120px;
+    text-align: center;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    width: 500px;
 
-.fa-react {
-    color: #00d8ff;
 }
 
-.fa-html5 {
-    color: #E34C26;
-}
-
-.fa-css3-alt{
-    color: #264de4 ;
-}
-
-.fa-js-square{
-    color: #F0DB4F;
+.icons-media-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    gap: 9%;
+    padding: 3%;
 }
