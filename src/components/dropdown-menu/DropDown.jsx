@@ -8,7 +8,7 @@ const DropDown = () => {
 
     return (
 
-        <ul class="menu">
+        <ul className="menu">
             <li>
                 <a onClick={goHome} href="/#/"><span class="material-symbols-outlined">
                     visibility
@@ -17,7 +17,7 @@ const DropDown = () => {
                 <ul className='dropdown-options'>
                     <li><a href="/#/workshop">Workshop</a></li>
                     <li><a href="/#/about">About</a></li>
-                    <li><a href="/#/media">Media</a></li>
+                    <li><a href="/#/media-tech">Media & Tech</a></li>
                 </ul>
             </li>
         </ul>

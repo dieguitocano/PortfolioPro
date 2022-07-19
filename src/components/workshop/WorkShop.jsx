@@ -14,7 +14,7 @@ const WorkShop = () => {
   return (
     <div className='projects-container'>
       <div className='workshop-intro'>
-        <h1>Projects </h1>
+        <h1>Workshop </h1>
       </div>
       <div className='cards-container'>
         <div className='projects-card'>
