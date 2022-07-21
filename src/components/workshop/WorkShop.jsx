@@ -42,7 +42,7 @@ const WorkShop = () => {
 
           <div className='letras-card-container'>
             <h2>Weather App</h2>
-            <p>Project based on React, dynamic card system in store with info consumed from Api, store features</p>
+            <p>Project based on React, dynamic card system in store with info consumed from Api, using location of device</p>
 
           </div>
 
@@ -52,7 +52,7 @@ const WorkShop = () => {
 
           <div className='letras-card-container'>
             <h2>Hillson Adventure</h2>
-            <p>Project based on React, dynamic card system in store with info consumed from Api, add, upgrade, delete.</p>
+            <p>Project based on React, dynamic card system with info consumed from Api, add, upgrade, delete.</p>
 
           </div>
 
@@ -62,7 +62,7 @@ const WorkShop = () => {
 
           <div className='letras-card-container'>
             <h2>Store</h2>
-            <p>Project based on React, dynamic card system in store with info consumed from Api, add, upgrade, delete, store features</p>
+            <p>Project based on React, dynamic card system in with info consumed from Api, add, upgrade, delete, store features</p>
 
           </div>
 
@@ -72,7 +72,7 @@ const WorkShop = () => {
 
           <div className='letras-card-container'>
             <h2>Quotes</h2>
-            <p>Project based on React, dynamic card system in store with info consumed from Api, Background and quotes responsive</p>
+            <p>Project based on React, dynamic card system in store with info consumed from Api, random Background and Quotes</p>
 
           </div>
 
