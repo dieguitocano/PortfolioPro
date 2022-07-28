@@ -51,9 +51,9 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
-        <a href='https://weather-appdone.netlify.app/' >
+        
           <img className="project-picture" src={weather} alt=""></img>
-          </a>
+          
 
           <div className='letras-card-container'>
             <h2>Weather App</h2>
