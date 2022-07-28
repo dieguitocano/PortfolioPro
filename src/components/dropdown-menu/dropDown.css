@@ -9,6 +9,18 @@
   
 }
 
+@media screen and (max-width: 550px){
+  .menu{
+    margin: 0 30%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .menu{
+    margin: 0 25%;
+  }
+}
+
 .menu > li > a {
   background: #000;
   color: #fff;
