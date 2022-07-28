@@ -10,7 +10,7 @@ const DropDown = () => {
 
         <ul className="menu">
             <li>
-                <a onClick={goHome} href="/#/"><span class="material-symbols-outlined">
+                <a onClick={goHome} href="/#/"><span className="material-symbols-outlined">
                     visibility
                 </span></a>
 

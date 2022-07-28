@@ -6,29 +6,42 @@ import weather from '../resources/Screenshot from 2022-06-06 14-51-07.png'
 import pokemon from '../resources/Screenshot from 2022-07-03 19-29-10.png'
 import rick from '../resources/Screenshot from 2022-06-14 00-34-28.png'
 import hillson from '../resources/Screenshot from 2022-07-03 20-19-25.png'
+import Loader from '../loader/Loader'
+import techub from '../resources/Screenshot from 2022-07-26 18-54-36.png'
 
 const WorkShop = () => {
 
 
 
+
   return (
+
     <div className='projects-container'>
       <div className='workshop-intro'>
         <h1>Workshop </h1>
       </div>
+
+
       <div className='cards-container'>
+
+
+
+
         <div className='projects-card'>
-          <img className="project-picture" src={pokemon} alt=""></img>
+          <a href='https://pokedex-pre-last.netlify.app/' >
+
+            <img className="project-picture" src={pokemon} alt=""></img></a>
 
           <div className='letras-card-container'>
             <h2>Pokedex</h2>
-            <p>Project based on React, dynamic card system with info consumed from Api, Protected Route</p>
+            <p>Project based on React, dynamic card system with info consumed from Api, Routes, search features</p>
 
           </div>
 
         </div>
         <div className='projects-card'>
-          <img className="project-picture" src={rick} alt=""></img>
+          <a href='https://rick-mortyreact.netlify.app/' >
+            <img className="project-picture" src={rick} alt=""></img></a>
 
           <div className='letras-card-container'>
             <h2>Rick & Morty</h2>
@@ -38,7 +51,9 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
+        <a href='https://weather-appdone.netlify.app/' >
           <img className="project-picture" src={weather} alt=""></img>
+          </a>
 
           <div className='letras-card-container'>
             <h2>Weather App</h2>
@@ -48,7 +63,9 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
+          <a href='https://hillsonadv-practice.netlify.app/' >
           <img className="project-picture" src={hillson} alt=""></img>
+          </a>
 
           <div className='letras-card-container'>
             <h2>Hillson Adventure</h2>
@@ -58,7 +75,21 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
+          <a href='https://tech-hub-pre-last.netlify.app/' >
+            <img className="project-picture" src={techub} alt=""></img>
+          </a>
+
+          <div className='letras-card-container'>
+            <h2>Tech Hub</h2>
+            <p>Project based on React, dynamic card system in with info consumed from Api, add, upgrade, delete, store features</p>
+
+          </div>
+
+        </div>
+        <div className='projects-card'>
+        <a href='https://store-training1.netlify.app/' >
           <img className="project-picture" src={store} alt=""></img>
+          </a>
 
           <div className='letras-card-container'>
             <h2>Store</h2>
@@ -68,7 +99,9 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
+        <a href='https://changing-quotes.netlify.app/' >
           <img className="project-picture" src={quotes} alt=""></img>
+          </a>
 
           <div className='letras-card-container'>
             <h2>Quotes</h2>
@@ -77,9 +110,11 @@ const WorkShop = () => {
           </div>
 
         </div>
+
       </div>
-      
-      
+
+
+
     </div>
 
   )
