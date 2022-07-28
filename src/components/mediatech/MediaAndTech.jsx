@@ -50,10 +50,16 @@ const MediaAndTech = () => {
 
                 <div className='media-card'>
                     <div className='icons-media-container'>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-facebook-square"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                        <a href='https://www.linkedin.com/in/diego-cano-aa5183216/' >
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href='https://www.facebook.com/diego.cano.313/' >
+                        <i className="fa-brands fa-facebook-square"></i>
+                        </a>
+                        <a href='https://www.instagram.com/_diego.cano_/' >
+                        <i className="fa-brands fa-instagram"></i>
+                        </a>
+                        <i className="fa-brands fa-twitter"></i>
                     </div>
                 </div>
 

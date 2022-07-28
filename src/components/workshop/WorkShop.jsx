@@ -63,9 +63,9 @@ const WorkShop = () => {
 
         </div>
         <div className='projects-card'>
-          <a href='https://hillsonadv-practice.netlify.app/' >
+          
           <img className="project-picture" src={hillson} alt=""></img>
-          </a>
+          
 
           <div className='letras-card-container'>
             <h2>Hillson Adventure</h2>
