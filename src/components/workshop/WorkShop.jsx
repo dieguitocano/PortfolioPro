@@ -71,9 +71,9 @@ const WorkShop = () => {
           </div>
         </div>
         <div className="projects-card">
-          <a href="https://tech-hub-pre-last.netlify.app/">
+          
             <img className="project-picture" src={techub} alt=""></img>
-          </a>
+          
 
           <div className="letras-card-container">
             <h2>Tech Hub</h2>
