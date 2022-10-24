@@ -18,7 +18,7 @@
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,7 +36,7 @@
     border-radius: 16px;
     backdrop-filter: blur(4.3px);
     -webkit-backdrop-filter: blur(4.7px);
-    border: 1px solid rgba(255, 255, 255, 0.24);
+   
 
 }
 
@@ -65,7 +65,7 @@
     border-radius: 16px;
     backdrop-filter: blur(4.3px);
     -webkit-backdrop-filter: blur(4.7px);
-    border: 1px solid rgba(255, 255, 255, 0.24);
+   
     width: 500px;
 
 }
@@ -82,4 +82,19 @@
 .fa-brands{
     cursor: pointer;
     color: white;
+}
+
+@media(min-width: 1634px) {
+    .cards-media-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 64%;
+        }
+    
+    
 }
