@@ -3,24 +3,18 @@
     min-height: 100vh;
 }
 
-
-
-
 .about-me-container {
     width: 60%;
     margin-top: 120px;
     margin-left: 13%;
 }
 
-.about-me-intro {}
-
-
 .about-card-container{
     display: flex;
     height: 400px;
     width: 100%;
     justify-content: center;
-    margin-top: 80px;
+    padding: 80px;
 }
 
 
