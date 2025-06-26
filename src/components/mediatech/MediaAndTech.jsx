@@ -38,7 +38,7 @@ const MediaAndTech = () => {
 
                 <div className='tech-card'>
                     <div className='icons-card-container'>
-                        <i class="fa-brands fa-git-alt"></i>
+                        <i class="fa-brands fa-wordpress"></i>
                     </div>
                 </div>
 
