@@ -1,9 +1,9 @@
 import React from 'react'
 import './style/mediaAndTech.css'
-
+import Footer from '../footer/Footer';
 const MediaAndTech = () => {
     return (
-
+    <>   
         <div className='media-tech-container'>
             <div className='media-tech-intro'>
                 <h1>Media & Tech</h1>
@@ -64,10 +64,11 @@ const MediaAndTech = () => {
                 </div>
 
             </div>
+            <Footer />
         </div>
+    </> 
+    );
 
-    )
-
-}
+};
 
 export default MediaAndTech
