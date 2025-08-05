@@ -1,6 +1,5 @@
 import React from 'react'
 import './style/aboutMe.css'
-import Footer from '../footer/Footer' 
 
 
 const AboutMe = () => {
@@ -20,7 +19,6 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

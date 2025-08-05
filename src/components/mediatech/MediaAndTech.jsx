@@ -1,6 +1,5 @@
 import React from 'react'
 import './style/mediaAndTech.css'
-import Footer from '../footer/Footer';
 const MediaAndTech = () => {
     return (
     <>   
@@ -64,7 +63,6 @@ const MediaAndTech = () => {
                 </div>
 
             </div>
-            <Footer />
         </div>
     </> 
     );
