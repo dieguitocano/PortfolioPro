@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer'
 import HomeScreen from './components/Home/HomeScreen'
 import MediaAndTech from './components/mediatech/MediaAndTech'
 import Particle from './components/Particle'
-import WorkShop from './components/workshop/WorkShop'
+import Showcase from './components/showcase/Showcase'
 
 
 
@@ -25,7 +25,7 @@ function App() {
         <DropDown />
         <Routes>
           <Route path='/' element={<HomeScreen />} />
-          <Route path='/workshop' element={<WorkShop />} />
+          <Route path='/showcase' element={<Showcase />} />
           <Route path='/about' element={<AboutMe />} />
           <Route path='/media-tech' element={<MediaAndTech />} />
         </Routes>

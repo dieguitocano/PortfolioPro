@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/workShop.css";
+import "./style/showcase.css";
 import quotes from "../resources/Screenshot from 2022-07-18 11-40-44.png";
 import store from "../resources/projectoTiendaGrupo.png";
 import weather from "../resources/Screenshot from 2022-06-06 14-51-07.png";
@@ -12,12 +12,12 @@ import raf from "../resources/raf.png";
 import Footer from "../footer/Footer";
 
 
-const WorkShop = () => {
+const Showcase = () => {
   return (
-    
+    <>
       <div className="projects-container">
-        <div className="workshop-intro">
-          <h1>Workshop </h1>
+        <div className="showcase-intro">
+          <h1>Showcase</h1>
         </div>
   
         <div className="cards-container">
@@ -127,7 +127,8 @@ const WorkShop = () => {
         </div> 
         <Footer />
       </div>
+    </>
   );
 };
 
-export default WorkShop;
+export default Showcase;
