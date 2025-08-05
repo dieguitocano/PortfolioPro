@@ -15,7 +15,7 @@ const DropDown = () => {
                 </span></a>
 
                 <ul className='dropdown-options'>
-                    <li><a href="/#/workshop">Workshop</a></li>
+                    <li><a href="/#/showcase">Showcase</a></li>
                     <li><a href="/#/about">About</a></li>
                     <li><a href="/#/media-tech">Media & Tech</a></li>
                 </ul>
