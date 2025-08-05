@@ -1,34 +1,31 @@
 
+import { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import AboutMe from './components/aboutme/AboutMe'
 import DropDown from './components/dropdown-menu/DropDown'
 import Footer from './components/footer/Footer'
-import HomeScreen from './components/Home/HomeScreen'
-import MediaAndTech from './components/mediatech/MediaAndTech'
+import Loader from './components/loader/Loader'
 import Particle from './components/Particle'
-import Showcase from './components/showcase/Showcase'
 
-
-
+const Showcase = lazy(() => import('./components/showcase/Showcase'))
+const AboutMe = lazy(() => import('./components/aboutme/AboutMe'))
+const MediaAndTech = lazy(() => import('./components/mediatech/MediaAndTech'))
+const HomeScreen = lazy(() => import('./components/Home/HomeScreen'))
 
 
 function App() {
-
-
-
-
-
   return (
     <>
       <div className="App">
         <DropDown />
-        <Routes>
-          <Route path='/' element={<HomeScreen />} />
-          <Route path='/showcase' element={<Showcase />} />
-          <Route path='/about' element={<AboutMe />} />
-          <Route path='/media-tech' element={<MediaAndTech />} />
-        </Routes>
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path='/' element={<HomeScreen />} />
+            <Route path='/showcase' element={<Showcase />} />
+            <Route path='/about' element={<AboutMe />} />
+            <Route path='/media-tech' element={<MediaAndTech />} />
+          </Routes>
+        </Suspense>
         <Footer />
       </div>
     </>
