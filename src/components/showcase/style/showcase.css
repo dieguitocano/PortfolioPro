@@ -18,6 +18,7 @@
     gap: 30px;
     flex-wrap: wrap;
     padding: 80px 30px;
+    margin-bottom: 80px;
 }
 
 .showcase-intro {
