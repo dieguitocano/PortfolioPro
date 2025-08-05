@@ -14,7 +14,7 @@ import Footer from "../footer/Footer";
 
 const WorkShop = () => {
   return (
-    
+    <>
       <div className="projects-container">
         <div className="workshop-intro">
           <h1>Workshop </h1>
@@ -127,6 +127,7 @@ const WorkShop = () => {
         </div> 
         <Footer />
       </div>
+    </>
   );
 };
 
