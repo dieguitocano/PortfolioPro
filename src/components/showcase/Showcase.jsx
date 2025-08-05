@@ -9,7 +9,6 @@ import hillson from "../resources/Screenshot from 2022-07-03 20-19-25.png";
 import Loader from "../loader/Loader";
 import techub from "../resources/Screenshot from 2022-07-26 18-54-36.png";
 import raf from "../resources/raf.png";
-import Footer from "../footer/Footer";
 
 
 const Showcase = () => {
@@ -124,7 +123,6 @@ const Showcase = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
